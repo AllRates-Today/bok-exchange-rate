@@ -1,7 +1,7 @@
 {
   "name": "bok-exchange-rate",
-  "version": "1.0.2",
-  "description": "Official Bank of Korea (South Korea) daily exchange rates — ~40 currencies vs KRW, history since 1964. Zero-dependency Node.js/TypeScript client.",
+  "version": "1.1.2",
+  "description": "Official Bank of Korea (South Korea) daily exchange rates — 43 currencies vs KRW, history since 1964. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bok",
     "bank",
