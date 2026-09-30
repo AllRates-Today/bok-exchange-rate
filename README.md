@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'KRW', { apiKey: 'art_live_...' });
 {
   bank: 'bok',
   name: 'Bank of Korea',
-  rate_date: '2026-09-09',   // Bank of Korea's own publication date
+  rate_date: '2026-09-23',   // Bank of Korea's own publication date
   source: 'USD',
   target: 'KRW',
-  rate: 1341.1,
+  rate: 1360,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bok',
   name: 'Bank of Korea',
-  rate_date: '2026-09-09',
+  rate_date: '2026-09-23',
   rates: [
-    { "base": "USD", "quote": "KRW", "type": "reference", "value": 1341.1 },
+    { "base": "USD", "quote": "KRW", "type": "reference", "value": 1360 },
     // … the rest of the published table (43 currencies vs KRW)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bok-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'KRW', from: '2026-01-01', to: '2026-09-09' },
+  { source: 'USD', target: 'KRW', from: '2026-01-01', to: '2026-09-23' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'KRW',
   from: '2026-01-01',
-  to: '2026-09-09',
+  to: '2026-09-23',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-09', rate: 1341.1, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-09-23', rate: 1360, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
