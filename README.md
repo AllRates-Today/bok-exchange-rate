@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/bok-exchange-rate.svg)](https://github.com/AllRates-Today/bok-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/bok-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/KRW today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbok%3Fsource%3DUSD%26target%3DKRW&query=%24.rate&label=USD%2FKRW%20published%20by%20Bank%20of%20Korea&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bok/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbok%3Fsource%3DUSD%26target%3DKRW&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bok/)
 
 **Official Bank of Korea (South Korea) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Bank of Korea itself prints, every business day.**
 
@@ -32,6 +34,62 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Bank of Korea table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Bank of Korea — 43 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | KRW | reference | 364.64 |
+| ARS | KRW | reference | 0.88 |
+| AUD | KRW | reference | 932.22 |
+| BDT | KRW | reference | 10.87 |
+| BHD | KRW | reference | 3551.03 |
+| BND | KRW | reference | 1046.62 |
+| BRL | KRW | reference | 266.67 |
+| CAD | KRW | reference | 939.43 |
+| CHF | KRW | reference | 1607.97 |
+| CNY | KRW | reference | 199.71 |
+| CZK | KRW | reference | 61.43 |
+| DKK | KRW | reference | 200.69 |
+| EGP | KRW | reference | 25.57 |
+| EUR | KRW | reference | 1500.04 |
+| GBP | KRW | reference | 1770.02 |
+| HKD | KRW | reference | 170.65 |
+| HUF | KRW | reference | 4.1 |
+| IDR | KRW | reference | 0.0749 |
+| ILS | KRW | reference | 436.13 |
+| INR | KRW | reference | 13.84 |
+| JOD | KRW | reference | 1888.86 |
+| JPY | KRW | reference | 8.4746 |
+| KWD | KRW | reference | 4345.94 |
+| KZT | KRW | reference | 2.99 |
+| MNT | KRW | reference | 0.37 |
+| MXN | KRW | reference | 74.5 |
+| MYR | KRW | reference | 327.59 |
+| NOK | KRW | reference | 139.88 |
+| NZD | KRW | reference | 749.95 |
+| PHP | KRW | reference | 21.35 |
+| PKR | KRW | reference | 4.83 |
+| PLN | KRW | reference | 342.58 |
+| QAR | KRW | reference | 367.31 |
+| RUB | KRW | reference | 15.67 |
+| SAR | KRW | reference | 356.72 |
+| SEK | KRW | reference | 133.93 |
+| SGD | KRW | reference | 1046.62 |
+| THB | KRW | reference | 39.82 |
+| TRY | KRW | reference | 27.22 |
+| TWD | KRW | reference | 42.04 |
+| USD | KRW | reference | 1339.2 |
+| VND | KRW | reference | 0.0515 |
+| ZAR | KRW | reference | 80.52 |
+
+Source: [Official rates published by BOK, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bok/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
