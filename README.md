@@ -42,53 +42,53 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-12** by Bank of Korea — 43 rates. Updated 2026-10-12.
+Published **2026-10-13** by Bank of Korea — 43 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KRW | reference | 364.3 |
+| AED | KRW | reference | 363.71 |
 | ARS | KRW | reference | 0.88 |
-| AUD | KRW | reference | 934.73 |
-| BDT | KRW | reference | 10.87 |
-| BHD | KRW | reference | 3542.96 |
-| BND | KRW | reference | 1044.66 |
-| BRL | KRW | reference | 268.01 |
-| CAD | KRW | reference | 938.22 |
-| CHF | KRW | reference | 1610.98 |
-| CNY | KRW | reference | 199.58 |
-| CZK | KRW | reference | 61.44 |
-| DKK | KRW | reference | 200.47 |
-| EGP | KRW | reference | 25.45 |
-| EUR | KRW | reference | 1498.43 |
-| GBP | KRW | reference | 1770.64 |
-| HKD | KRW | reference | 170.5 |
-| HUF | KRW | reference | 4.1 |
-| IDR | KRW | reference | 0.0748 |
-| ILS | KRW | reference | 435.7 |
-| INR | KRW | reference | 13.83 |
-| JOD | KRW | reference | 1887.17 |
-| JPY | KRW | reference | 8.4542 |
-| KWD | KRW | reference | 4342.04 |
-| KZT | KRW | reference | 2.95 |
+| AUD | KRW | reference | 929.18 |
+| BDT | KRW | reference | 10.85 |
+| BHD | KRW | reference | 3537.79 |
+| BND | KRW | reference | 1042.78 |
+| BRL | KRW | reference | 267.85 |
+| CAD | KRW | reference | 935.24 |
+| CHF | KRW | reference | 1600.81 |
+| CNY | KRW | reference | 199.34 |
+| CZK | KRW | reference | 61.16 |
+| DKK | KRW | reference | 199.39 |
+| EGP | KRW | reference | 25.37 |
+| EUR | KRW | reference | 1490.42 |
+| GBP | KRW | reference | 1764.12 |
+| HKD | KRW | reference | 170.22 |
+| HUF | KRW | reference | 4.08 |
+| IDR | KRW | reference | 0.0746 |
+| ILS | KRW | reference | 433.96 |
+| INR | KRW | reference | 13.95 |
+| JOD | KRW | reference | 1884.06 |
+| JPY | KRW | reference | 8.423 |
+| KWD | KRW | reference | 4334.9 |
+| KZT | KRW | reference | 2.96 |
 | MNT | KRW | reference | 0.37 |
-| MXN | KRW | reference | 72.59 |
-| MYR | KRW | reference | 327.54 |
-| NOK | KRW | reference | 139.95 |
-| NZD | KRW | reference | 751.09 |
-| PHP | KRW | reference | 21.31 |
-| PKR | KRW | reference | 4.83 |
-| PLN | KRW | reference | 341.74 |
-| QAR | KRW | reference | 367.08 |
-| RUB | KRW | reference | 15.72 |
-| SAR | KRW | reference | 356.34 |
-| SEK | KRW | reference | 133.7 |
-| SGD | KRW | reference | 1044.66 |
-| THB | KRW | reference | 39.89 |
-| TRY | KRW | reference | 27.12 |
-| TWD | KRW | reference | 41.9 |
-| USD | KRW | reference | 1338 |
-| VND | KRW | reference | 0.0517 |
-| ZAR | KRW | reference | 80.98 |
+| MXN | KRW | reference | 73.12 |
+| MYR | KRW | reference | 326.52 |
+| NOK | KRW | reference | 139.48 |
+| NZD | KRW | reference | 746.04 |
+| PHP | KRW | reference | 21.28 |
+| PKR | KRW | reference | 4.82 |
+| PLN | KRW | reference | 339.87 |
+| QAR | KRW | reference | 366.45 |
+| RUB | KRW | reference | 15.91 |
+| SAR | KRW | reference | 355.65 |
+| SEK | KRW | reference | 132.98 |
+| SGD | KRW | reference | 1042.78 |
+| THB | KRW | reference | 39.71 |
+| TRY | KRW | reference | 27.07 |
+| TWD | KRW | reference | 41.82 |
+| USD | KRW | reference | 1335.8 |
+| VND | KRW | reference | 0.0515 |
+| ZAR | KRW | reference | 80.7 |
 
 Source: [Official rates published by BOK, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bok/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
