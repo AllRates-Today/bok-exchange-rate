@@ -33,62 +33,65 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/bok').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Bank of Korea table](https://allratestoday.com/api/open/central-bank/bok/table.svg)](https://allratestoday.com/central-bank-rates-api/bok/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by Bank of Korea — 43 rates. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-19 by Bank of Korea — 43 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KRW | reference | 367.13 |
-| ARS | KRW | reference | 0.89 |
-| AUD | KRW | reference | 933.03 |
-| BDT | KRW | reference | 10.96 |
-| BHD | KRW | reference | 3570.96 |
-| BND | KRW | reference | 1051.71 |
-| BRL | KRW | reference | 264.49 |
-| CAD | KRW | reference | 950.15 |
-| CHF | KRW | reference | 1629.61 |
-| CNY | KRW | reference | 201.61 |
-| CZK | KRW | reference | 62.14 |
-| DKK | KRW | reference | 202.29 |
-| EGP | KRW | reference | 25.24 |
-| EUR | KRW | reference | 1512.14 |
-| GBP | KRW | reference | 1789.66 |
-| HKD | KRW | reference | 171.84 |
-| HUF | KRW | reference | 4.16 |
-| IDR | KRW | reference | 0.0752 |
-| ILS | KRW | reference | 434.8 |
-| INR | KRW | reference | 14.19 |
-| JOD | KRW | reference | 1901.97 |
-| JPY | KRW | reference | 8.5302 |
-| KWD | KRW | reference | 4376.12 |
-| KZT | KRW | reference | 2.98 |
+| AED | KRW | reference | 365.51 |
+| ARS | KRW | reference | 0.88 |
+| AUD | KRW | reference | 934.78 |
+| BDT | KRW | reference | 10.86 |
+| BHD | KRW | reference | 3555.56 |
+| BND | KRW | reference | 1048.83 |
+| BRL | KRW | reference | 265.04 |
+| CAD | KRW | reference | 950.14 |
+| CHF | KRW | reference | 1628.24 |
+| CNY | KRW | reference | 201.03 |
+| CZK | KRW | reference | 61.86 |
+| DKK | KRW | reference | 201.36 |
+| EGP | KRW | reference | 25.07 |
+| EUR | KRW | reference | 1505.17 |
+| GBP | KRW | reference | 1788.61 |
+| HKD | KRW | reference | 171.05 |
+| HUF | KRW | reference | 4.14 |
+| IDR | KRW | reference | 0.0746 |
+| ILS | KRW | reference | 431.31 |
+| INR | KRW | reference | 14.14 |
+| JOD | KRW | reference | 1893.37 |
+| JPY | KRW | reference | 8.5024 |
+| KWD | KRW | reference | 4358.44 |
+| KZT | KRW | reference | 2.97 |
 | MNT | KRW | reference | 0.37 |
-| MXN | KRW | reference | 73.15 |
-| MYR | KRW | reference | 330.31 |
-| NOK | KRW | reference | 142.33 |
-| NZD | KRW | reference | 757.92 |
-| PHP | KRW | reference | 21.38 |
-| PKR | KRW | reference | 4.87 |
-| PLN | KRW | reference | 346.24 |
-| QAR | KRW | reference | 369.94 |
-| RUB | KRW | reference | 16.08 |
-| SAR | KRW | reference | 359.33 |
-| SEK | KRW | reference | 135.51 |
-| SGD | KRW | reference | 1051.71 |
-| THB | KRW | reference | 40.24 |
-| TRY | KRW | reference | 27.25 |
-| TWD | KRW | reference | 41.66 |
-| USD | KRW | reference | 1348.5 |
-| VND | KRW | reference | 0.0521 |
-| ZAR | KRW | reference | 81.66 |
+| MXN | KRW | reference | 72.7 |
+| MYR | KRW | reference | 328.9 |
+| NOK | KRW | reference | 142.18 |
+| NZD | KRW | reference | 758.52 |
+| PHP | KRW | reference | 21.31 |
+| PKR | KRW | reference | 4.85 |
+| PLN | KRW | reference | 344.36 |
+| QAR | KRW | reference | 368.29 |
+| RUB | KRW | reference | 16.16 |
+| SAR | KRW | reference | 357.72 |
+| SEK | KRW | reference | 135.24 |
+| SGD | KRW | reference | 1048.83 |
+| THB | KRW | reference | 40.16 |
+| TRY | KRW | reference | 27.1 |
+| TWD | KRW | reference | 41.38 |
+| USD | KRW | reference | 1342.4 |
+| VND | KRW | reference | 0.0518 |
+| ZAR | KRW | reference | 81.43 |
+
+</details>
 
 Source: [Official rates published by BOK, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bok/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -361,7 +364,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/bok-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/bok-exchange-rate)
 
 ## 📜 License
