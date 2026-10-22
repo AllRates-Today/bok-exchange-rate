@@ -47,53 +47,53 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-21 by Bank of Korea — 43 rates. Updated 2026-10-21.</summary>
+<summary>Table as text: published 2026-10-22 by Bank of Korea — 43 rates. Updated 2026-10-22.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KRW | reference | 361.59 |
+| AED | KRW | reference | 360.92 |
 | ARS | KRW | reference | 0.87 |
-| AUD | KRW | reference | 930.93 |
-| BDT | KRW | reference | 10.74 |
-| BHD | KRW | reference | 3520.68 |
-| BND | KRW | reference | 1039.12 |
-| BRL | KRW | reference | 264.32 |
-| CAD | KRW | reference | 944.32 |
-| CHF | KRW | reference | 1608.43 |
-| CNY | KRW | reference | 198.85 |
-| CZK | KRW | reference | 61.37 |
-| DKK | KRW | reference | 199.5 |
+| AUD | KRW | reference | 930.83 |
+| BDT | KRW | reference | 10.72 |
+| BHD | KRW | reference | 3513.12 |
+| BND | KRW | reference | 1037.65 |
+| BRL | KRW | reference | 263.84 |
+| CAD | KRW | reference | 943.52 |
+| CHF | KRW | reference | 1607.74 |
+| CNY | KRW | reference | 198.66 |
+| CZK | KRW | reference | 61.35 |
+| DKK | KRW | reference | 199.14 |
 | EGP | KRW | reference | 24.37 |
-| EUR | KRW | reference | 1491.14 |
-| GBP | KRW | reference | 1776 |
-| HKD | KRW | reference | 169.21 |
-| HUF | KRW | reference | 4.09 |
-| IDR | KRW | reference | 0.0738 |
-| ILS | KRW | reference | 429.45 |
-| INR | KRW | reference | 14.01 |
-| JOD | KRW | reference | 1873.06 |
-| JPY | KRW | reference | 8.3907 |
-| KWD | KRW | reference | 4311.69 |
+| EUR | KRW | reference | 1488.6 |
+| GBP | KRW | reference | 1775.04 |
+| HKD | KRW | reference | 168.93 |
+| HUF | KRW | reference | 4.08 |
+| IDR | KRW | reference | 0.0736 |
+| ILS | KRW | reference | 428.79 |
+| INR | KRW | reference | 14.03 |
+| JOD | KRW | reference | 1869.53 |
+| JPY | KRW | reference | 8.3826 |
+| KWD | KRW | reference | 4303.57 |
 | KZT | KRW | reference | 2.95 |
 | MNT | KRW | reference | 0.37 |
-| MXN | KRW | reference | 72.09 |
-| MYR | KRW | reference | 325.27 |
-| NOK | KRW | reference | 141.14 |
-| NZD | KRW | reference | 754.04 |
-| PHP | KRW | reference | 21.05 |
+| MXN | KRW | reference | 70.87 |
+| MYR | KRW | reference | 324.82 |
+| NOK | KRW | reference | 141.5 |
+| NZD | KRW | reference | 754.34 |
+| PHP | KRW | reference | 20.92 |
 | PKR | KRW | reference | 4.79 |
-| PLN | KRW | reference | 341.4 |
-| QAR | KRW | reference | 364.33 |
-| RUB | KRW | reference | 16.1 |
-| SAR | KRW | reference | 354.04 |
-| SEK | KRW | reference | 134.03 |
-| SGD | KRW | reference | 1039.12 |
-| THB | KRW | reference | 39.51 |
-| TRY | KRW | reference | 26.78 |
-| TWD | KRW | reference | 40.74 |
-| USD | KRW | reference | 1328 |
+| PLN | KRW | reference | 341.65 |
+| QAR | KRW | reference | 363.81 |
+| RUB | KRW | reference | 16.18 |
+| SAR | KRW | reference | 353.35 |
+| SEK | KRW | reference | 133.97 |
+| SGD | KRW | reference | 1037.65 |
+| THB | KRW | reference | 39.44 |
+| TRY | KRW | reference | 26.71 |
+| TWD | KRW | reference | 40.9 |
+| USD | KRW | reference | 1325.5 |
 | VND | KRW | reference | 0.0513 |
-| ZAR | KRW | reference | 81 |
+| ZAR | KRW | reference | 80.88 |
 
 </details>
 
