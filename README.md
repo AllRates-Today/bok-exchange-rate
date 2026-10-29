@@ -47,53 +47,53 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Bank of Korea — 43 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Bank of Korea — 43 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KRW | reference | 360.56 |
-| ARS | KRW | reference | 0.86 |
-| AUD | KRW | reference | 930.59 |
-| BDT | KRW | reference | 10.68 |
-| BHD | KRW | reference | 3509.47 |
-| BND | KRW | reference | 1033.52 |
-| BRL | KRW | reference | 247.45 |
-| CAD | KRW | reference | 942.5 |
-| CHF | KRW | reference | 1597.27 |
-| CNY | KRW | reference | 198.69 |
-| CZK | KRW | reference | 60.6 |
-| DKK | KRW | reference | 197.19 |
-| EGP | KRW | reference | 23.64 |
-| EUR | KRW | reference | 1473.81 |
-| GBP | KRW | reference | 1762.11 |
-| HKD | KRW | reference | 168.82 |
-| HUF | KRW | reference | 4.02 |
-| IDR | KRW | reference | 0.073 |
-| ILS | KRW | reference | 433.27 |
-| INR | KRW | reference | 13.92 |
-| JOD | KRW | reference | 1867.84 |
-| JPY | KRW | reference | 8.383 |
-| KWD | KRW | reference | 4297.58 |
-| KZT | KRW | reference | 2.9 |
+| AED | KRW | reference | 363.84 |
+| ARS | KRW | reference | 0.87 |
+| AUD | KRW | reference | 942.09 |
+| BDT | KRW | reference | 10.76 |
+| BHD | KRW | reference | 3541.27 |
+| BND | KRW | reference | 1043.09 |
+| BRL | KRW | reference | 249.78 |
+| CAD | KRW | reference | 955.05 |
+| CHF | KRW | reference | 1613.99 |
+| CNY | KRW | reference | 200.21 |
+| CZK | KRW | reference | 61.2 |
+| DKK | KRW | reference | 199.42 |
+| EGP | KRW | reference | 23.85 |
+| EUR | KRW | reference | 1490.51 |
+| GBP | KRW | reference | 1780.55 |
+| HKD | KRW | reference | 170.33 |
+| HUF | KRW | reference | 4.06 |
+| IDR | KRW | reference | 0.0735 |
+| ILS | KRW | reference | 428.32 |
+| INR | KRW | reference | 14.03 |
+| JOD | KRW | reference | 1884.77 |
+| JPY | KRW | reference | 8.4689 |
+| KWD | KRW | reference | 4333.71 |
+| KZT | KRW | reference | 2.93 |
 | MNT | KRW | reference | 0.37 |
-| MXN | KRW | reference | 70.9 |
-| MYR | KRW | reference | 323.87 |
-| NOK | KRW | reference | 141.84 |
-| NZD | KRW | reference | 752.4 |
-| PHP | KRW | reference | 20.72 |
-| PKR | KRW | reference | 4.78 |
-| PLN | KRW | reference | 335 |
-| QAR | KRW | reference | 363.32 |
-| RUB | KRW | reference | 16.44 |
-| SAR | KRW | reference | 352.81 |
-| SEK | KRW | reference | 133.08 |
-| SGD | KRW | reference | 1033.52 |
-| THB | KRW | reference | 39.22 |
-| TRY | KRW | reference | 26.57 |
-| TWD | KRW | reference | 40.79 |
-| USD | KRW | reference | 1324.3 |
-| VND | KRW | reference | 0.0513 |
-| ZAR | KRW | reference | 79.58 |
+| MXN | KRW | reference | 71.69 |
+| MYR | KRW | reference | 327.77 |
+| NOK | KRW | reference | 144.3 |
+| NZD | KRW | reference | 751.94 |
+| PHP | KRW | reference | 20.88 |
+| PKR | KRW | reference | 4.83 |
+| PLN | KRW | reference | 338.45 |
+| QAR | KRW | reference | 366.75 |
+| RUB | KRW | reference | 16.6 |
+| SAR | KRW | reference | 356.1 |
+| SEK | KRW | reference | 134.9 |
+| SGD | KRW | reference | 1043.09 |
+| THB | KRW | reference | 39.64 |
+| TRY | KRW | reference | 26.81 |
+| TWD | KRW | reference | 41.24 |
+| USD | KRW | reference | 1336.3 |
+| VND | KRW | reference | 0.0517 |
+| ZAR | KRW | reference | 80.45 |
 
 </details>
 
@@ -258,6 +258,7 @@ The Bank of Korea publishes the won's daily basic exchange rates (매매기준�
 
 - Publisher's own page: [ECOS — Economic Statistics System (3.1.1.1)](https://ecos.bok.or.kr/#/SearchStat) · [www.bok.or.kr/eng/main/main.do](https://www.bok.or.kr/eng/main/main.do)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Bank of Korea rates page](https://allratestoday.com/central-bank-rates-api/bok/)
+- In the API: usually by **02:15 UTC** (measured over the last 11 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
